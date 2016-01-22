@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assemblies>
+  <assembly name="UnitTests.dll" environment="64-bit .NET (unknown version) [collection-per-class, parallel (4 threads)]" test-framework="xUnit.net 2.1.0.3179" run-date="2016-01-22" run-time="09:18:23" total="3" passed="2" failed="1" skipped="0" time="0.139" errors="0">
+  <collection total="3" passed="2" failed="1" skipped="0" name="Test collection for useMangoServer.UnitTests.Controllers.ProjectControllerShould" time="0.008">
+    <test name="UnitTests.Controllers.ProjectControllerShould.Return404ForNonExistingProject" type="useMangoServer.UnitTests.Controllers.ProjectControllerShould" method="Return404ForNonExistingProject" time="0.0067585" result="Pass" />
+    <test name="UnitTests.Controllers.ProjectControllerShould.FailingTest" type="useMangoServer.UnitTests.Controllers.ProjectControllerShould" method="FailingTest" time="0.0005855" result="Fail">
+      <failure exception-type="System.Exception">
+        <message><![CDATA[System.Exception : This is a failure]]></message>
+        <stack-trace><![CDATA[   at UnitTests.Controllers.ProjectControllerShould.FailingTest() in C:\Mango\source\usemango-server\test\useMangoServer.UnitTests\Controllers\ProjectControllerShould.cs:line 38]]></stack-trace>
+      </failure>
+    </test>
+    <test name="UnitTests.Controllers.ProjectControllerShould.ReturnProjectList" type="useMangoServer.UnitTests.Controllers.ProjectControllerShould" method="ReturnProjectList" time="0.0003442" result="Pass" />
+  </collection>
+</assembly>
+</assemblies>
